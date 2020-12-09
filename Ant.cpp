@@ -96,9 +96,7 @@ char** Ant::makeBoard()
             Antboard[i] = new char[boardLength +2];       
         }    
     
-//Jimwel Aguinaldo answered a question on Piazza about how to draw a board with
-//boarders.  Thank Jim for getting us started, this would have taken me FOREVER
-// to figure out.
+
 
     for(int i = 0; i < boardWidth + 2; i++)
     { 
